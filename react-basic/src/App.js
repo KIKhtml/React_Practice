@@ -20,7 +20,7 @@ function App() {
     })
   }
   return (
-    <div className="container">
+    <div className="container"> 
       <h1 style={design}>แอพบัญชีรายรับ - รายจ่าย</h1>
       <FormComponent onAddItem={addNewItems} />
       <Transaction items={items} />
